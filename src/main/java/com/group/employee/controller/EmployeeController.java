@@ -23,7 +23,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/employees")
-    public List<EmployeeResponse> getTeams() {
+    public List<EmployeeResponse> findEmployee() {
         return employeeService.findEmployee();
     }
 }
